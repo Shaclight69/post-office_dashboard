@@ -192,7 +192,7 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box position="absolute" bottom="2rem">
+          <Box position="absolute" bottom="1.5rem">
             <Divider />
             <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
               <Box
@@ -201,7 +201,7 @@ const Sidebar = ({
                 src={profileImage}
                 height="50px"
                 width="50px"
-                borderRadius="50%"
+                borderRadius="200px"
                 sx={{ objectFit: "cover" }}
               />
               <Box textAlign="left">
